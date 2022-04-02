@@ -13,6 +13,6 @@ This widget for Yii2 is a version of https://github.com/josdejong/jsoneditor
         return $this->render('json-editor', ['model'=>$model]);
 
 - in view-file, add this line:
-<? echo $form->field($model, 'fields')->widget('common\widgets\anjo_json\AnjoJson') ?>
+echo $form->field($model, 'fields')->widget('common\widgets\anjo_json\AnjoJson');
 
 - other codes is as same as normal Yii2 codes;
